@@ -15,7 +15,7 @@ Some useful tips to help you get started:
 
   ```bash
   $> cd /path/to/your-project-folder
-  $> python -m SimpleHTTPServer 8080
+  $> python -m http.server 8080
   ```
 
 1. Open a browser and visit localhost:8080
@@ -23,7 +23,7 @@ Some useful tips to help you get started:
 
   ``` bash
   $> cd /path/to/your-project-folder
-  $> ./ngrok http 8080
+  $> ngrok http 8080
   ```
 
 1. Copy the public URL ngrok gives you and try running it through PageSpeed Insights! Optional: [More on integrating ngrok, Grunt and PageSpeed.](http://www.jamescryer.com/2014/06/12/grunt-pagespeed-and-ngrok-locally-testing/)
@@ -47,6 +47,9 @@ You might find the FPS Counter/HUD Display useful in Chrome developer tools desc
 * <a href="https://developers.google.com/web/fundamentals/performance/optimizing-content-efficiency/optimize-encoding-and-transfer.html">Reduce the size of text</a>
 * <a href="https://developers.google.com/web/fundamentals/performance/optimizing-content-efficiency/image-optimization.html">Optimize images</a>
 * <a href="https://developers.google.com/web/fundamentals/performance/optimizing-content-efficiency/http-caching.html">HTTP caching</a>
+
+### Setting up Python
+* [Python Beginner Tutorial](https://www.youtube.com/watch?v=IZj8hLrkABs&t=366s)
 
 ### Customization with Bootstrap
 The portfolio was built on Twitter's <a href="http://getbootstrap.com/">Bootstrap</a> framework. All custom styles are in `dist/css/portfolio.css` in the portfolio repo.
